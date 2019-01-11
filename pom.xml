@@ -6,7 +6,7 @@
     <groupId>com.github.librepdf</groupId>
     <artifactId>openpdf-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.2.8-SNAPSHOT</version>
+    <version>1.2.9-SNAPSHOT</version>
 
     <licenses>
         <license>
@@ -56,13 +56,14 @@
         <bouncycastle.version>1.60</bouncycastle.version>
         <jupiter.version>5.3.2</jupiter.version>
         <maven.surefire.plugin.version>2.22.1</maven.surefire.plugin.version>
+        <mockito.version>2.23.4</mockito.version>
     </properties>
     <!-- Support for compilation under java 8 -->
     <profiles>
         <profile>
             <id>java8-javadoc</id>
             <activation>
-                <jdk>[1.8,</jdk>
+                <jdk>[1.8,)</jdk>
             </activation>
             <properties>
                 <javadoc.param>-Xdoclint:none</javadoc.param>
