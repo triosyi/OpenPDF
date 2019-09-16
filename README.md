@@ -4,8 +4,8 @@ OpenPDF is a Java library for creating and editing PDF files with a LGPL and MPL
 
  [![Build Status](https://travis-ci.org/LibrePDF/OpenPDF.svg?branch=master)](https://travis-ci.org/LibrePDF/OpenPDF) [![Join the chat at https://gitter.im/LibrePDF/OpenPDF](https://badges.gitter.im/LibrePDF/OpenPDF.svg)](https://gitter.im/LibrePDF/OpenPDF) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf) [![License (LGPL version 3.0)](https://img.shields.io/badge/license-GNU%20LGPL%20version%203.0-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-3.0) [![License (MPL)](https://img.shields.io/badge/license-Mozilla%20Public%20License-yellow.svg?style=flat-square)](http://opensource.org/licenses/MPL-2.0)
 
-## OpenPDF version 1.2.21 released 2019-06-24 ##
-Get version 1.2.21 here - https://github.com/LibrePDF/OpenPDF/releases/tag/1.2.21
+## OpenPDF version 1.3.10 released 2019-09-16 ##
+Get version 1.3.10 here - https://github.com/LibrePDF/OpenPDF/releases/tag/1.3.10
 
 - [Previous releases](https://github.com/LibrePDF/OpenPDF/releases)
 
@@ -16,7 +16,7 @@ Add this to your pom.xml file to use the latest version of OpenPDF:
         <dependency>
             <groupId>com.github.librepdf</groupId>
             <artifactId>openpdf</artifactId>
-            <version>1.2.21</version>
+            <version>1.3.10</version>
         </dependency>
 
 ## License ##
@@ -29,7 +29,7 @@ We want OpenPDF to consist of source code which is consistently licensed with th
 
 ## Documentation ##
 - [Examples](pdf-toolbox/src/test/java/com/lowagie/examples/)
-- [JavaDoc](https://librepdf.github.io/OpenPDF/docs-1-2-7/?)
+- [JavaDoc](https://librepdf.github.io/OpenPDF/docs-1-3-3/?)
 - [Tutorial](https://github.com/LibrePDF/OpenPDF/wiki/Tutorial) (wiki, work in progress)
 
 
@@ -38,15 +38,20 @@ We want OpenPDF to consist of source code which is consistently licensed with th
 OpenPDF is open source software with a LGPL and MPL license. It is a fork of iText version 4, more specifically iText svn tag 4.2.0, which was hosted publicly on sourceforge with LGPL and MPL license headers in the source code, and lgpl and mpl license documents in the svn repository.
 Beginning with version 5.0 of iText, the developers have moved to the AGPL to improve their ability to sell commercial licenses. 
 
-## Contributing ##
-Release the hounds!  Please send all pull requests.
-Make sure that your contributions can be released with a dual LGPL and MPL license. In particular, pull requests to the OpenPDF project must only contain code that you have written yourself. GPL or AGPL licensed code will not be acceptable.
-
 ## Projects using OpenPDF ##
 - Spring Framework https://github.com/spring-projects/spring-framework
 - flyingsaucer https://github.com/flyingsaucerproject/flyingsaucer
+- Confluence PDF Export
+- Digital Signature Service - https://github.com/esig/dss
 - OpenCMS, Nuxeo Web Framework, QR Invoice Library and many closed source commercial applications as well.
 - Full list here: https://mvnrepository.com/artifact/com.github.librepdf/openpdf/usages
+
+## Android support ##
+OpenPDF now has Android support, more info here: [Android-support](https://github.com/LibrePDF/OpenPDF/wiki/Android-support)
+
+## Contributing ##
+Release the hounds!  Please send all pull requests.
+Make sure that your contributions can be released with a dual LGPL and MPL license. In particular, pull requests to the OpenPDF project must only contain code that you have written yourself. GPL or AGPL licensed code will not be acceptable.
 
 ### Coding Style ###
 - Code indentation style is 4 spaces.
@@ -95,6 +100,8 @@ Significant [Contributors to OpenPDF](https://github.com/LibrePDF/OpenPDF/graphs
   [@sullis](https://github.com/sullis)  
   [@lapo-luchini](https://github.com/lapo-luchini)  
   [@jeffrey-easyesi](https://github.com/jeffrey-easyesi)  
-  [@V-F](https://github.com/V-F)         
+  [@V-F](https://github.com/V-F)     
+  [@sixdouglas](https://github.com/sixdouglas)       
+    
 
 Also, a very special thanks to the iText developers ;)
